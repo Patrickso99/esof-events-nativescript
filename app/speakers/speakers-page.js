@@ -5,4 +5,7 @@ function onNavigatingTo(args) {
     component.bindingContext = new SpeakersViewModel();
 }
 
+exports.onTap = function() {
+    alert('TAPPED!');
+}
 exports.onNavigatingTo = onNavigatingTo;
