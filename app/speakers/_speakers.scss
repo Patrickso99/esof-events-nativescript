@@ -4,3 +4,71 @@ ActionBar.speakers
 {
     background-color: $speakersColor;
 }
+
+// QUELLO DEL PROF
+Page.page-speakers
+{
+    background: white;
+
+    // Modifico il componente della cardView dentro il tag 'Page' della pagina xml
+    .cardView
+    {
+        background: #f2f2f2;
+        border-radius: 10;
+        padding: 5 20;
+        margin: 25 20;
+
+        // In CSS: class="cardView" > class="header"
+        // In SCSS: .cardView { .header{ padding: 10} }
+        .header
+        {
+            // padding su tutti e 4 i lati
+            padding: 10;
+        }
+        .content
+        {
+            // Padding -> Top=30; Right=20 Bottom=10 Left=null
+            padding: 30 20 10;
+        }
+    }
+}
+
+// QUELLO MIO
+/* .stack-layout
+{
+    margin: 20;
+    text-align: center;
+    background: #f2f2f2;
+}
+
+.nome
+{
+    margin: 30;
+    margin-left: 20;
+}
+
+.azione
+{
+    margin-right: 40;
+    margin-top: 10;
+    margin-left: 40;
+    text-align: left;
+    border-bottom-width: 0.3;
+
+}
+
+.descrizione
+{
+    margin-right: 40;
+    margin-top: 10;
+    margin-bottom: 20;
+    margin-left: 40;
+    text-align: left;
+    border-bottom-width: 0.3;
+}
+
+Page
+{
+    background: white;
+}
+*/
