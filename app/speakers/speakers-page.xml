@@ -14,8 +14,8 @@
                 <Image
                     src="https://www.netclipart.com/pp/m/120-1205442_download-bart-simpson-head-png.png"
                     stretch="aspectFill"
-                    width="72"
-                    height="72"
+                    width="36"
+                    height="36"
                     borderRadius="50"/>
                 <Label text="Mario Bianchi" fontSize="16" />
             </StackLayout>
@@ -35,8 +35,8 @@
                 <Image
                     src="https://www.netclipart.com/pp/m/120-1205442_download-bart-simpson-head-png.png"
                     stretch="aspectFill"
-                    width="72"
-                    height="72"
+                    width="36"
+                    height="36"
                     borderRadius="50"/>
                 <Label text="Mario Bianchi" fontSize="16" />
             </StackLayout>
