@@ -12,11 +12,9 @@
         <StackLayout class="cardView" orientation="vertical">
             <StackLayout class="header" orientation="horizontal">
                 <Image
+                    class="avatar"
                     src="https://www.netclipart.com/pp/m/120-1205442_download-bart-simpson-head-png.png"
-                    stretch="aspectFill"
-                    width="36"
-                    height="36"
-                    borderRadius="50"/>
+                    stretch="aspectFill" />
                 <Label text="Mario Bianchi" fontSize="16" />
             </StackLayout>
             <StackLayout class="content" orientation="vertical">
@@ -33,11 +31,9 @@
         <StackLayout class="cardView" orientation="vertical">
             <StackLayout class="header" orientation="horizontal">
                 <Image
+                    class="avatar"
                     src="https://www.netclipart.com/pp/m/120-1205442_download-bart-simpson-head-png.png"
-                    stretch="aspectFill"
-                    width="36"
-                    height="36"
-                    borderRadius="50"/>
+                    stretch="aspectFill" />
                 <Label text="Mario Bianchi" fontSize="16" />
             </StackLayout>
             <StackLayout class="content" orientation="vertical">

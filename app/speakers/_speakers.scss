@@ -20,6 +20,13 @@ Page.page-speakers
 
         // In CSS: class="cardView" > class="header"
         // In SCSS: .cardView { .header{ padding: 10} }
+        .avatar
+        {
+            border-radius: 50;
+            width: 36;
+            height: 36;
+        }
+
         .header
         {
             // padding su tutti e 4 i lati
