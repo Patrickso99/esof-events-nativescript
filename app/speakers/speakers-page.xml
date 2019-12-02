@@ -7,58 +7,34 @@
         <Label text="Speakers"></Label>
     </ActionBar>
 
-    <!-- QUELLO DEL PROF -->
-    <StackLayout orientation="vertical">
-        <StackLayout class="cardView" orientation="vertical">
-            <StackLayout class="header" orientation="horizontal">
-                <Image
-                    class="avatar"
-                    src="https://www.netclipart.com/pp/m/120-1205442_download-bart-simpson-head-png.png"
-                    stretch="aspectFill" />
-                <Label text="Mario Bianchi" fontSize="16" />
+    <ListView items="{{ items }}">
+        <ListView.itemTemplate>
+            <StackLayout class="cardView" orientation="vertical">
+                <StackLayout class="header" orientation="horizontal">
+                    <Image
+                        class="avatar"
+                        src="{{ img }}"
+                        stretch="aspectFill" />
+                    <Label text="{{ nome }}" fontSize="16" />
+                </StackLayout>
+                <StackLayout class="content" orientation="vertical">
+                    <Label text="{{ interventoCompleto }}" textWrap="true" />
+                    <StackLayout
+                            class="separator"
+                            height="2"
+                            marginTop="5"
+                            marginBottom="5"
+                            backgroundColor="#bdbdbd"/>
+                    <Label text="{{ desc }}" textWrap="true" />
+                    <StackLayout
+                            class="separator"
+                            height="2"
+                            marginTop="5"
+                            marginBottom="5"
+                            backgroundColor="#bdbdbd"/>
+                </StackLayout>
             </StackLayout>
-            <StackLayout class="content" orientation="vertical">
-                <Label text="Colazione" textWrap="true" />
-                <StackLayout
-                        class="separator"
-                        height="2"
-                        marginTop="5"
-                        marginBottom="5"
-                        backgroundColor="#bdbdbd"/>
-                <Label text="Bla bla bla caffè corretto e amaro" textWrap="true" />
-            </StackLayout>
-        </StackLayout>
-        <StackLayout class="cardView" orientation="vertical">
-            <StackLayout class="header" orientation="horizontal">
-                <Image
-                    class="avatar"
-                    src="https://www.netclipart.com/pp/m/120-1205442_download-bart-simpson-head-png.png"
-                    stretch="aspectFill" />
-                <Label text="Mario Bianchi" fontSize="16" />
-            </StackLayout>
-            <StackLayout class="content" orientation="vertical">
-                <Label text="Colazione" textWrap="true" />
-                <StackLayout
-                        class="separator"
-                        height="2"
-                        marginTop="5"
-                        marginBottom="5"
-                        backgroundColor="#bdbdbd"/>
-                <Label text="Bla bla bla caffè corretto e amaro" textWrap="true" />
-            </StackLayout>
-        </StackLayout>
-    </StackLayout>
-
-    <!-- QUELLO MIO -->
-    <!-- <StackLayout orientation="vertical">
-        <StackLayout class="stack-layout">
-            <StackLayout orientation="horizontal" marginLeft="30">
-                <Image src="https://cdn.iconscout.com/icon/premium/png-256-thumb/bart-simpson-549913.png" width="50"></Image>
-                <Label class="nome" text="Mario Bianchi"></Label>
-            </StackLayout>
-                <Label class="azione" text="Colazione: 8:00 - 9:00"></Label>
-                <Label class="descrizione" text="bla bla bla caffè corretto e amaro"> </Label>
-        </StackLayout>
-    </StackLayout> -->
+        </ListView.itemTemplate>
+    </ListView>
 
 </Page>
