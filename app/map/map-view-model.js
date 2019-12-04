@@ -1,10 +1,13 @@
 const observableModule = require("tns-core-modules/data/observable");
+const data = require('./data')
 
 function MapViewModel() {
     const viewModel = observableModule.fromObject({
+
         /* Add your view model properties here */
-        nome: '',
-        cognome: ''
+        latitude: 45.6522854,
+        longitude: 13.7903000,
+        zoom: 14
     });
 
     return viewModel;
