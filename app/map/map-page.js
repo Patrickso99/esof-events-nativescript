@@ -26,7 +26,7 @@ function onMapReady(args)
     // Secondo marker
     const secondoMarker = new mapsModule.Marker();
 
-    secondoMarker.position = mapsModule.Position.positionFromLatLng(
+    secondoMarker.position = mapsModule.Position.positionFromLatLng (
         45.646283314737836,
         13.759925365447998
     );
