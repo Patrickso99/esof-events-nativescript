@@ -14,7 +14,7 @@ function onMapReady(args)
     // Primo marker
     const primoMarker = new mapsModule.Marker();
 
-    primoMarker.position = mapsModule.Position.positionFromLatLng(
+    primoMarker.position = mapsModule.Position.positionFromLatLng (
         45.649268385921395,
         13.762092590332031
     );
