@@ -5,8 +5,8 @@ function MapViewModel() {
     const viewModel = observableModule.fromObject({
 
         /* Add your view model properties here */
-        latitude: 45.6522854,
-        longitude: 13.7903000,
+        latitude: 45.64617545848487,
+        longitude: 13.76670644815647,
         zoom: 14
     });
 
