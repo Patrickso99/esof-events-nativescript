@@ -46,5 +46,8 @@
                     padding="20" />
             </StackLayout>
         </StackLayout>
+
+        <Button class="-outline -rounded-sm" text="Credits" tap="onTap" />
+
     </StackLayout>
 </Page>
