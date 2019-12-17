@@ -1,9 +1,9 @@
-const InformationViewModel = require("./information-view-model");
+const CreditsViewModel = require("./credits-view-model");
 
 function onNavigatingTo(args)
 {
     const component = args.object;
-    component.bindingContext = new InformationViewModel();
+    component.bindingContext = new CreditsViewModel();
 }
 
 function onTap(args)
@@ -11,9 +11,9 @@ function onTap(args)
     const button = args.object;
     const page = button.page;
     page.frame.navigate({
-        moduleName: "information/credits/credits-page",
+        moduleName: "information/information-page",
         clearHistory: true
-        });
+    });
 }
 
 exports.onNavigatingTo = onNavigatingTo;
