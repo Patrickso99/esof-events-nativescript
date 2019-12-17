@@ -1,5 +1,5 @@
 # ESOF 2020 events nativescript
-## Prototipo mobile in Ionic
+## Prototipo mobile in NativeScript
 Qui trovi il prototipo in Ionic da paragonare: [ESOF 2020 Ionic](https://github.com/patrickreichert/esof-events-ionic)
 
 ## OS Mobile
